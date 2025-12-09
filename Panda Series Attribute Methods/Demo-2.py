@@ -9,5 +9,5 @@ s = pd.Series(data)
 # Display the Series
 print("Series: \n", s)
 
-# Access a value
-print("\nValue from a Pandas Series: ", s[2])
+# Dimensions
+print("\nSeries Dimensions: ", s.ndim)
