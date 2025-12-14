@@ -1,58 +1,51 @@
-# PandaTech 🐼  
-### Complete Pandas Learning Repository (Beginner → Intermediate)
+# 🐼 PandaTech
 
-**PandaTech** is a structured and practical learning repository focused on **Python Pandas**.  
-It contains **step-by-step Python files** that explain how to work with **DataFrames, Series, joins, concatenation, categorical data, and core Pandas operations**.
+**PandaTech** is a structured, hands-on learning repository designed to master **Python Pandas** from beginner to intermediate levels. It focuses on practical data manipulation techniques essential for Data Science, Machine Learning, and Analytics.
 
-This repository is designed to help learners **build strong fundamentals in data manipulation**, which is essential for **Data Science, Machine Learning, Analytics, and Backend Development**.
+## 📂 Repository Structure
 
----
+The repository is organized into progressive learning modules, each containing Python scripts to demonstrate core concepts:
 
-## 📌 Overview
+### 🔹 Core Modules
+* **01 DataFrame:** Introduction to creating and manipulating DataFrames from dictionaries and lists.
+* **02 Attributes & Methods:** Exploring DataFrame properties (`shape`, `columns`) and essential methods (`info`, `describe`).
+* **03 Series Attributes:** Deep dive into Pandas Series, indexing, and array-like operations.
 
-This repository focuses on **hands-on Pandas usage**, not theory only.
-
-You will learn how to:
-- Create and manipulate DataFrames and Series
-- Use Pandas attributes and methods effectively
-- Combine datasets using concat and join
-- Handle categorical data efficiently
-- Perform real-world data transformations
-
----
-## 🚀 What’s in this Repository
-
-The repository includes a series of Python files (or notebooks) covering:
-
-- **01_Pandas DataFrame** – Introduction to DataFrame creation and basics  
-- **02_Pandas DataFrame Attribute And Methods** – Pandas attributes and useful methods  
-- **03_Panda Series Attribute Methods** – Working with Series and its methods  
-- **04_Pandas Concat DataFrame** – Concatenating DataFrames  
-- **05_Pandas Join DataFrame** – Joining/Merging DataFrames  
-- **06_Pandas Series** – Series deeper exploration  
-- **07_Pandas Combine Series** – Combining series operations  
-- **08_Pandas Categorical Data** – Working with categorical data types  
-
-These files serve as **incremental learning resources** and can be used for both study and reference.
+### 🔹 Advanced Operations
+* **04 Concatenation:** Combining DataFrames vertically and horizontally (`pd.concat`).
+* **05 Joins:** Merging datasets using SQL-style joins (`merge`, `join`).
+* **07 Combining Series:** Techniques for combining and aligning multiple Series objects.
+* **08 Categorical Data:** Optimizing memory and performance with the `category` data type.
 
 ---
 
-## 🧠 Why PandaTech is Useful
+## 🚀 Getting Started
 
-✔ Beginner-friendly learning progression  
-✔ Practical code examples  
-✔ Covers real industry-used Pandas features  
-✔ Strong foundation for Data Science & ML  
-✔ Resume and GitHub portfolio ready  
+To run the examples locally:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/pushtikadia/PandaTech.git](https://github.com/pushtikadia/PandaTech.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd PandaTech
+    ```
+3.  **Run a demo script:**
+    ```bash
+    python "01_Pandas DataFrame/Pandas_DataFrame_Demo-1.py"
+    ```
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Python 3**
-- **Pandas**
-- (Optional) NumPy (indirect usage)
+* **Python 3**
+* **Pandas Library**
+* **NumPy** (Indirectly used for numerical operations)
 
 ---
 
-
+<p align="center">
+  <b>PandaTech</b> • Created by <a href="https://github.com/pushtikadia"><b>Pushti Kadia</b></a>
+</p>
